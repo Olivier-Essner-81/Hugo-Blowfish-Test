@@ -1,0 +1,27 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "Olivier Essner personal homepage and Candle-8 project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "hugo server --minify -D -E -F",
+    "stage": "hugo server --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olivier-Essner-81/homepage.git"
+  },
+  "keywords": [
+    "homepage",
+    "blog"
+  ],
+  "author": "Olivier Essner",
+  "license": "AGPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/Olivier-Essner-81/homepage/issues"
+  },
+  "homepage": "https://github.com/Olivier-Essner-81/homepage#readme",
+  "dependencies": {
+    "@iamtraction/google-translate": "^2.0.1"
+  }
+}

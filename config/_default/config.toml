@@ -1,25 +1,35 @@
 # -- Site Configuration --
 # Refer to the theme docs for more details about each of these parameters.
-# https://blowfish.page/docs/getting-started/
 
-theme = "blowfish" # UNCOMMENT THIS LINE
-# baseURL = "https://candle8.app/"
+theme = "blowfish"
+baseURL = "https://candle8.app/"
 defaultContentLanguage = "en"
 
-# pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
-
 enableRobotsTXT = true
-summaryLength = 0
+summaryLength = 30
 
 buildDrafts = false
 buildFuture = false
 
 enableEmoji = true
 
-# googleAnalytics = "G-XXXXXXXXX"
+# OLS @ 03.07.2025 - To add in beta version
+googleAnalytics = "G-XXXXXXXXXX"
 
 [pagination]
-  pagerSize = 100
+  pagerSize = 27
+
+[params.author]
+  name = "Olivier Essner"
+  image = "img/avatar.jpg"
+  headline = "Solution Architect / Senior Business Analyst"
+  bio = "Solution Architect / Senior Business Analyst"
+  links = [
+    { email = "mailto:contact@candle8.app" },
+    { linkedin = "https://www.linkedin.com/in/olivier-essner-a7b87547" },
+    { github = "https://github.com/Olivier-Essner-81" },
+  ]
+
 
 [imaging]
   anchor = 'Center'
@@ -39,8 +49,9 @@ enableEmoji = true
   home = ["HTML", "RSS", "JSON"]
 
 [related]
-  threshold = 0
-  toLower = false
+  threshold = 1
+  includeNewer = true
+  toLower = true
 
     [[related.indices]]
         name = "tags"
@@ -56,14 +67,15 @@ enableEmoji = true
 
     [[related.indices]]
         name = "authors"
-        weight = 20
-
-    [[related.indices]]
-        name = "date"
         weight = 10
 
     [[related.indices]]
-      applyFilter = false
+        name = "date"
+        weight = 0
+
+    [[related.indices]]
+      applyFilter = true
       name = 'fragmentrefs'
       type = 'fragments'
       weight = 10
+

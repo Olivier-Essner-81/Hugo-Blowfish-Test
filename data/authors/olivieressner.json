@@ -1,0 +1,10 @@
+{
+    "name": "Olivier Essner",
+    "image" : "img/profil_olivier_essner.png",
+    "bio": "Solution Architect / Senior Business Analyst",
+    "social": [
+        { "email": "mailto:contact@candle8.app" },
+        { "linkedin": "https://www.linkedin.com/in/olivier-essner-a7b87547" },
+        { "github": "https://github.com/Olivier-Essner-81" }
+    ]
+}
