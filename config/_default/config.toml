@@ -13,8 +13,8 @@ buildFuture = false
 
 enableEmoji = true
 
-# OLS @ 03.07.2025 - To add in beta version
-googleAnalytics = "G-XXXXXXXXXX"
+# OLS @ 03.07.2025 - Adding simple GA4
+googleAnalytics = "G-8DEYTVCTCF"
 
 [pagination]
   pagerSize = 27
