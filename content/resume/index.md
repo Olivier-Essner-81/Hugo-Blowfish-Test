@@ -77,7 +77,7 @@ layoutBackgroundHeaderSpace: false
         <tr>
             <td><img class="customEntitityLogo" src="fis.png"/></td>
             <td><a href="https://www.fisglobal.com/" target="_blank">FIS (Formerly Sungard)</a></td>
-            <td>SSoftware Developer</td>
+            <td>Software Developer</td>
             <td>2008 - 2010</td>
             <td>Paris, FRANCE</td>
         </tr>
