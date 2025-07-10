@@ -45,7 +45,7 @@ smartTOCHideUnfocusedChildren = false
   layoutBackgroundBlur = true
 
 [article]
-  showDate = true
+  showDate = false
   showViews = false
   showLikes = false
   showDateOnlyInArticle = true
@@ -111,3 +111,5 @@ smartTOCHideUnfocusedChildren = false
   cardViewScreenWidth = false
   cardView = false
 
+[params]
+  dateFormat = "2006-01-02" # This corresponds to YYYY-MM-DD

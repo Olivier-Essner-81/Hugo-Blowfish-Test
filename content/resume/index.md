@@ -1,6 +1,6 @@
 ---
 title: "Resume"
-date: 2025-07-03T12:00:00+08:00
+date: "2025-07-03"
 draft: false
 
 showDate : false
